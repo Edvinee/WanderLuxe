@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./Raido_15-08-23-main/about.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>WanderLuxe</title>
+  </head>
+  <body>
+    <header id="home">
+      <nav>
+        <div class="nav__bar">
+          <div class="nav__logo"><a href="#">WanderLuxe</a></div>
+          <ul class="nav__links">
+            <li class="link"><a href="./Raido_15-08-23-main/index.html">Home</a></li>
+            <li class="link"><a href="./Raido_15-08-23-main/aboutus.html">About Us</a></li>
+            <li class="link"><a href="./Raido_15-08-23-main/discover.html">Discover</a></li>
+            <li class="link"><a href="./Raido_15-08-23-main/blog.html">Blog</a></li>
+            <!-- <li class="link"><a href="#journals">Journals</a></li>
+            <li class="link"><a href="#gallery">Gallery</a></li>
+            <li class="link"><a href="#contact">Contact</a></li> -->
+            <li class="link search">
+              <span><i class="ri-search-line"></i></span>
+            </li>
+          </ul>
+        </div>
+      </nav>
+</head>
+<body>
+    <div class="tour-container">
+        <!-- Header Section -->
+        <section class="hero-section">
+            <div class="hero-text">
+                               <h1>Rwanda</h1>
+            </div>
+        </section>
+
+        <!-- Information Section -->
+        <section class="info-section">
+            <div class="tabs">
+                <button class="tab-button active">Information</button>
+                <button class="tab-button">Tour Plan</button>
+                <button class="tab-button">Location</button>
+                <button class="tab-button">Gallery</button>
+                <button class="tab-button">Review</button>
+            </div>
+            <div class="info-content">
+                <h2>A wonderful serenity has taken possession of my entire soul</h2>
+                <div class="tour-details">
+                    <p>2 days</p>
+                    <p>6 People</p>
+                    <p>18+</p>
+                    <p>Greece</p>
+                    <p>Discovery</p>
+                </div>
+                <div class="price-tag">
+                    <span>$800</span>
+                    <span>Per Person</span>
+                </div>
+                <p class="description">
+                    I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now...
+                </p>
+            </div>
+        </section>
+
+        <!-- Booking Form -->
+        <aside class="booking-form">
+            <h2>Book This Tour</h2>
+            <form id="bookingForm">
+                <input type="text" id="name" name="name" placeholder="Full Name" required>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <input type="email" id="confirm-email" name="confirm-email" placeholder="Confirm Email" required>
+                <input type="tel" id="phone" name="phone" placeholder="Phone" required>
+                <input type="date" id="date" name="date" placeholder="mm/dd/yyyy" required>
+                <input type="number" id="tickets" name="tickets" placeholder="Number Of Tickets" required>
+                <textarea id="message" name="message" placeholder="Message"></textarea>
+                <label>
+                    <input type="checkbox" id="availability" name="availability"> Check Availability
+                </label>
+                <button type="submit">Book Now</button>
+            </form>
+        </aside>
+    </div>
+
+    <script src="./Raido_15-08-23-main/main.js"></script>
+</body>
+</html>

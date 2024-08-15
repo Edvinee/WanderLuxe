@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - WanderLuxe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .about-section {
+            padding: 50px 0;
+            text-align: center;
+            /* background: url('./backgrounda.jpg') no-repeat center center/cover; */
+            color: white;
+        }
+        .about-section h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .about-section p {
+            font-size: 1.2em;
+            max-width: 700px;
+            margin: auto;
+        }
+        .content-section {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 50px 0;
+        }
+        .content-section .text-content {
+            flex: 1;
+            padding: 20px;
+        }
+        .content-section img {
+            flex: 1;
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .team-section {
+            background-color: #f0f0f0;
+            padding: 50px 0;
+            text-align: center;
+        }
+        .team-section h2 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            color: #333;
+        }
+        .team-cards {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            color: #333;
+        }
+        .team-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            margin: 20px;
+            text-align: center;
+            padding: 20px;
+            color: #333;
+            justify-content: center;
+        }
+        .team-card img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            color: #333;
+            justify-content: center;
+        }
+        .team-card h3 {
+            margin: 15px 0;
+
+        }
+        @import url("https://fonts.googleapis.com/css2?family=Lisu+Bosa:wght@600;800&family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+  --primary-color: #0a0d14;
+  --primary-color-light: #20242f;
+  --secondary-color: #f49e09;
+  --extra-light: rgba(255, 255, 255, 0.5);
+  --white: #ffffff;
+  --max-width: 1200px;
+  --header-font: "Lisu Bosa", serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.section__container {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 5rem 1rem;
+}
+
+.section__header {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  font-weight: 800;
+  font-family: var(--header-font);
+  text-align: center;
+}
+
+.section__subheader {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--white);
+  background-color: var(--primary-color);
+}
+
+header {
+  background-image: linear-gradient(to top, var(--primary-color), transparent),
+    url("./backgrounda.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid var(--extra-light);
+}
+
+.nav__bar {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 1.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.nav__logo a {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--white);
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.link a {
+  padding: 1.5rem 5px;
+  font-weight: 500;
+  color: var(--white);
+  transition: 0.3s;
+}
+
+.link a:hover {
+  color: var(--secondary-color);
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+.link span {
+  padding: 1rem 0;
+  color: var(--white);
+  cursor: pointer;
+}
+    </style>
+</head>
+<body>
+
+    <header id="home">
+        <nav>
+          <div class="nav__bar">
+            <div class="nav__logo"><a href="#">WanderLuxe</a></div>
+            <ul class="nav__links">
+              <li class="link"><a href="./index.html">Home</a></li>
+              <li class="link"><a href="aboutus.html">About Us</a></li>
+              <li class="link"><a href="discover.html">Discover</a></li>
+              <li class="link"><a href="blog.html">Blog</a></li>
+              <!-- <li class="link"><a href="#journals">Journals</a></li>
+              <li class="link"><a href="#gallery">Gallery</a></li>
+              <li class="link"><a href="#contact">Contact</a></li> -->
+              <li class="link search">
+                <span><i class="ri-search-line"></i></span>
+              </li>
+            </ul>
+          </div>
+        </nav>
+  </head>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <h1>Welcome to Wandeluxe<h1>
+        <p>Your adventure begins here. Let us guide you to the world’s most captivating destinations.</p>
+    </section>
+
+    <!-- Content Section -->
+    <div class="container">
+        <section class="content-section">
+            <div class="text-content">
+                <h2>Our Story</h2>
+                <p>
+                    Founded in 2020, WanderLuxe was born from a love of exploration and a deep understanding of the transformative power of travel. We’ve grown from a small, family-run business to a globally recognized travel agency, known for personalized service, attention to detail, and commitment to excellence.
+                </p>
+            </div>
+            <img src="travelimage1.jpg" alt="Travel Image 1">
+        </section>
+
+        <section class="content-section">
+            <img src="travelimage2.jpg" alt="Travel Image 2">
+            <div class="text-content">
+                <h2>Our Mission</h2>
+                <p>
+                    Our mission is simple: to help you see the world in the most meaningful way possible. Whether you're looking for a luxurious escape, a thrilling adventure, or a cultural immersion, we are here to tailor each trip to your unique preferences and needs.
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Team Section -->
+    <section class="team-section">
+        <h2>Meet Our Team</h2>
+        <div class="team-cards">
+            <div class="team-card">
+                <img src="nelly.jpg" alt="Team Member 1">
+                <h3>Nelly Kanyange</h3>
+                <p>Founder & CEO</p>
+            </div>
+            <div class="team-card">
+                <img src="pamella.jpg" alt="Team Member 2">
+                <h3>Nester Pamella</h3>
+                <p>Head of Operations</p>
+            </div>
+            <div class="team-card">
+                <img src="bessola.jpg" alt="Team Member 3">
+                <h3>Bessola Isimbi</h3>
+                <p>Senior Travel Advisor</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
